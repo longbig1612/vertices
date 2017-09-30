@@ -47,11 +47,11 @@ bool HelloWorld::init()
     this->addChild(menu, 1);
     
     skybox();
-    playground(Vec3(0, 0, 0));
+    //playground(Vec3(0, 0, 0));
     //playground(Vec3(-3, -3, 1));
     
     //batchCall();
-    //mirrorTest();
+    mirrorTest();
 
     
     return true;
